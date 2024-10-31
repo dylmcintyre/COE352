@@ -37,7 +37,7 @@ The program then calculates and outputs:
 In a free-free system (where neither end is constrained):
 - We end up with fewer elongation equations than unknown displacements, so the system does not have a unique solution.
 - The \( K \) matrix lacks full rank and is not invertible.
-- Attempting SVD decomposition on the \( K \) matrix results in elements of the inverse tending toward infinity, showing our system isn't stable.
+- Attempting SVD decomposition on the \( K \) matrix results in elements of the inverse tending toward infinity, showing the system isn't stable.
 
 ---
 
