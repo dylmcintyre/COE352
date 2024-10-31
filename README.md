@@ -11,7 +11,7 @@ This file defines the `calc_SVD` function, which takes a matrix \( A \) as input
 - **`k`**: The condition number of the inputted matrix \( A \)
 - **`A_inv`**: The calculated inverse of matrix \( A \)
 
-The function has a main which defines an A matrix and compares it to he Black Box response. The user can also simply call the calc_SVD function to get SVD results.
+The function has a main which defines an A matrix and compares it to the Black Box response. The user can also simply call the calc_SVD function to get SVD results.
 
 **Part 1 Response**:  
 - The black-box and self-implemented calculations of \( U \), \( S \), and \( V \) yielded identical values, although there were occasional sign differences in the \( V \) and \( U \) matrices.
