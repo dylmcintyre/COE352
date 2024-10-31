@@ -15,7 +15,7 @@ The function has a main which defines an A matrix and compares it to the Black B
 
 **Part 1 Response**:  
 - The black-box and self-implemented calculations of \( U \), \( S \), and \( V \) yielded identical values, although there were occasional sign differences in the \( V \) and \( U \) matrices.
-- Comparing the inverses of \( A \) computed from the SVD matrices showed slight differences, but both were comparable. The `calc_SVD` function successfully decomposed the \( K \) matrix in the spring-mass system which gave us viable results, demonstrating that it calculates `inverse(A)` effectively.
+- Comparing the inverses of \( A \) computed from the SVD matrices showed slight differences, but both were comparable. When I multiplied A by inverse(A) computed from the function, I got the identity matrix, verifying that the returned inverse works. The `calc_SVD` function successfully decomposed the \( K \) matrix in the spring-mass system which gave us viable results, demonstrating that it calculates `inverse(A)` effectively.
 
 ---
 
